@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "360330311657",
+    "project_id": "fir-one-2801c",
+    "storage_bucket": "fir-one-2801c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360330311657:android:d0781e6315003dc2923d78",
+        "android_client_info": {
+          "package_name": "com.example.firebasesetup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANEiknCG_601RoiFQSaZ8uJ_sVjUUpDVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
