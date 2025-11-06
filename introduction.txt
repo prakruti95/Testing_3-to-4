@@ -1,0 +1,50 @@
+MWF - 3 to 4
+
+Tops Career Center-Mobile
+
+Personal details:
+aadhar card
+LinkedIn ID
+Instagram ID 
+
+Assignment:
+-> topic wise
+
+Assesment
+-> Mini Task
+
+-> Github Account Link
+Repository-> Testing_Workspace ->link
+Folder ->
+ Manual Testing
+-> Module1
+-> Module2
+-> Module3
+-> Module4
+-> Module5
+-> Assignments
+-> Assesments
+-> Project
+
+ Automation Testing
+-> Module1
+-> Module2
+-> Module3
+-> Module4
+-> Module5
+-> Assignments
+-> Assesments
+-> Project
+
+ Appium Testing
+-> Module1
+-> Module2
+-> Assignments
+
+API Testing
+-> Module 1
+-> Assignments
+-> Project
+
+
+
