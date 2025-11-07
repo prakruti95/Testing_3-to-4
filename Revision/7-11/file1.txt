@@ -1,0 +1,39 @@
+What is Testing
+-> Testing is a process used to identify
+   i)correctness
+  ii)completeness
+ iii)quality 
+of developed computer software.
+
+When to Start Testing?
+
+->static testing : without executing code
+->dynamic testing : with executing code
+
+When to Stop Testing?
+-> Bugs solved
+-> requirement satisfied
+-> budget over
+-> timeline complete
+
+Why Testing is necessary?
+-> 
+
+
+
+
+-> Testing followed Software Development Life Cycle (SDLC).
+
+-> Planning,Preparation,Evaluation,Software products and related work products
+
+-> Software Architecture
+	1)Presentation Layer -> View
+	2)Application Layer -> Logical Layer
+	3)Data Layer
+
+-> System Environmnet Flow:
+
+Dev -> QA -> UAT -> Prod
+
+
+
