@@ -1,0 +1,42 @@
+SDLC - software development lifecycle
+
+1.Requirement Gathering
+
+-> Functional Requirement 
+-> Non Functional Requirement
+
+Diagram - format
+-> written
+
+-> UML [Unified Modeling Language]
+->usecase
+->activity
+
+
+2.Analysis :
+->what
+->how
+
+3.Design :
+-> Web -> HTML,css,javascript
+-> App -> XML
+
+
+
+4.Implementation : [Coding]
+-> MVC Architecture code
+
+5.Testing :
+-> Regression Testing
+-> Smoke Testing
+-> Sanity Testing
+-> Deploy
+
+
+6.Maintenance :
+1)corrective maintenance : 
+2)adaptive maintenance : new platform
+3)perfective maintenance : 
+
+
+
