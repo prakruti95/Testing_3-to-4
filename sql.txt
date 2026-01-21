@@ -1,0 +1,120 @@
+============================DDL===========================
+
+1)Create Database:
+CREATE DATABASE database_name
+CREATE DATABASE sagar
+
+2)Create Table:
+CREATE TABLE TABLE_NAME(colname datatype...)
+CREATE TABLE info(id int PRIMARY KEY AUTO_INCREMENT,name varchar(30))
+
+3)Add Column:
+ALTER TABLE TABLE_NAME ADD colname datatype
+ALTER TABLE info ADD surname varchar(60)
+
+4)Particular Column After Column:
+ALTER TABLE TABLE_NAME ADD colname datatype AFTER colname
+ALTER TABLE info ADD email varchar(60) AFTER name
+
+5)Change Datatype:
+ALTER TABLE TABLE_NAME MODIFY colname datatype
+ALTER TABLE info MODIFY email int
+
+6)Change Column name:
+ALTER TABLE TABLE_NAME CHANGE oldcol newcol datatype
+ALTER TABLE info CHANGE email pincode int 
+
+7)Drop Column:
+ALTER TABLE TABLE_NAME DROP colname
+ALTER TABLE info DROP pincode
+
+8)Rename Table:
+RENAME TABLE TABLE_NAME to NEWTABLE_NAME
+RENAME TABLE info to information 
+
+9)Drop Table:
+DROP TABLE TABLE_NAME
+DROP TABLE information
+
+10)Truncate Table:
+TRUNCATE TABLE TABLE_NAME
+TRUNCATE TABLE information
+
+DML
+11. insert data
+insert into tablename (database Field nm) values ('control value')
+
+12. multiple value insert
+INSERT INTO tablename (countrynm) VALUES('india'), ('pakistan')
+
+
+13. update data
+update tablenm set databasefieldnm='controlvalue' where id='id'
+
+14. delete data
+delete from tablenm where id='id'
+
+DQL
+15. select all
+select * from tablenm
+
+16. particular column dispaly
+SELECT columnnm from tablenm
+
+17. particular row display
+select * from tablenm where id='id' 
+
+18.order by
+select colnm from tblnm order by colnm asc/desc
+
+Constraint Keys:
+1)primary key -> avoid data duplication
+2)foreign key -> provide refrence[JOIN]
+3)unique key -> uniquely identify data
+
+
+JOINS:
+1) INNER JOIN
+2) LEFT JOIN
+3) RIGHT JOIN
+4) FULL JOIN
+
+SELECT * FROM location LEFT JOIN products ON location.lid = products.id
+UNION
+SELECT * FROM location RIGHT JOIN products ON location.lid = products.id
+
+Extra:
+
+1) USE DATABASE database_name;
+
+2) SELECT DISTINCT column1, column2....columnN FROM
+table_name;
+
+3)SELECT column1, column2....columnN FROM table_name WHERE
+CONDITION-1 {AND|OR} CONDITION-2;
+
+4)SELECT column1, column2....columnN FROM table_name WHERE
+column_name IN (val-1, val-2,...val-N);
+
+5)SELECT column1, column2....columnN FROM table_name WHERE
+column_name BETWEEN val-1 AND val-2;
+
+6)SELECT column1, column2....columnN FROM table_name WHERE
+column_name LIKE { PATTERN };
+
+7)SQL GROUP BY CLAUSE
+SELECT SUM(column_name) FROMtable_name WHERE CONDITION
+GROUP BY column_name;
+
+8)SELECT COUNT(column_name)FROM table_name WHERE CONDITION;
+
+9)SELECT SUM(column_name) FROMtable_name WHERE CONDITION
+GROUP BY column_name HAVING (arithematicfunction condition);
+
+10)CREATE UNIQUE INDEX index_name ON table_name( column1,
+column2,...columnN);
+
+
+
+
+
